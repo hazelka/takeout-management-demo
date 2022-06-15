@@ -1,0 +1,32 @@
+table {
+  padding: 1rem;
+  width: 100%;
+}
+
+.order-item-other {
+  width: 80px;
+  text-align: center;
+}
+
+th, td{
+  padding: 0.5rem;
+}
+
+th {
+  color: white;
+  background-color: var(--gray1);
+  padding: 1rem;
+}
+
+/* tr:nth-child(even) {
+  background-color: #ffffff;
+} */
+
+tr {
+  background-color: #ffffff;
+  border-color: #949FAB;
+}
+
+tr:hover {
+  background-color: #C3C9CE;
+}

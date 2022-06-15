@@ -1,0 +1,58 @@
+.property {
+  padding: 0.5rem  1rem;
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+}
+
+.message {
+  padding: 0 3rem;
+}
+
+.status-selection {
+  margin-left: 150px;
+}
+
+#update-status-button {
+  font-size: 0.8rem;
+  margin: 0 0.5rem;
+  border: 1px solid var(--gray2);
+  background-color: var(--gray2);
+  color: white;
+}
+
+#update-status-button:hover {
+  transform: scale(1.05);
+}
+
+.message {
+  background-color: var(--gray1);
+  color: white;
+  margin: 1rem;
+  padding: 0;
+}
+
+.message .property {
+  padding: 1rem;
+}
+
+.message-detail {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+}
+
+.detail-category {
+  border-bottom: 5px solid white;
+}
+
+.message, .order {
+  box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.5);
+}
+
+.order {
+  padding: 0;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
